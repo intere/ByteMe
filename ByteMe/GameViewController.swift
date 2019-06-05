@@ -12,45 +12,22 @@ import SceneKit
 
 class GameViewController: UIViewController {
 
+    let event = EventGroup.celebration
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
-        // create and add a camera to the scene
-        let cameraNode = SCNNode()
-        cameraNode.camera = SCNCamera()
-        scene.rootNode.addChildNode(cameraNode)
-        
-        // place the camera
-        cameraNode.position = SCNVector3(x: 0, y: 0, z: 15)
-        
-        // create and add a light to the scene
-        let lightNode = SCNNode()
-        lightNode.light = SCNLight()
-        lightNode.light!.type = .omni
-        lightNode.position = SCNVector3(x: 0, y: 10, z: 10)
-        scene.rootNode.addChildNode(lightNode)
-        
-        // create and add an ambient light to the scene
-        let ambientLightNode = SCNNode()
-        ambientLightNode.light = SCNLight()
-        ambientLightNode.light!.type = .ambient
-        ambientLightNode.light!.color = UIColor.darkGray
-        scene.rootNode.addChildNode(ambientLightNode)
-        
-        // retrieve the ship node
-        let ship = scene.rootNode.childNode(withName: "ship", recursively: true)!
-        
-        // animate the 3d object
-        ship.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 1)))
-        
+        let scene = SCNScene(named: "assets.scnassets/NeutralPose.scn")!
+
         // retrieve the SCNView
         let scnView = self.view as! SCNView
-        
+
+
         // set the scene to the view
         scnView.scene = scene
+        scnView.allowsCameraControl = true
+        scnView.autoenablesDefaultLighting = true
         
         // allows the user to manipulate the camera
         scnView.allowsCameraControl = true
@@ -75,30 +52,17 @@ class GameViewController: UIViewController {
         let p = gestureRecognize.location(in: scnView)
         let hitResults = scnView.hitTest(p, options: [:])
         // check that we clicked on at least one object
-        if hitResults.count > 0 {
-            // retrieved the first clicked object
-            let result = hitResults[0]
-            
-            // get its material
-            let material = result.node.geometry!.firstMaterial!
-            
-            // highlight it
-            SCNTransaction.begin()
-            SCNTransaction.animationDuration = 0.5
-            
-            // on completion - unhighlight
-            SCNTransaction.completionBlock = {
-                SCNTransaction.begin()
-                SCNTransaction.animationDuration = 0.5
-                
-                material.emission.contents = UIColor.black
-                
-                SCNTransaction.commit()
-            }
-            
-            material.emission.contents = UIColor.red
-            
-            SCNTransaction.commit()
+
+        guard let cyclops = hitResults.first?.node.cyclopsParent else {
+            return
+        }
+
+        let animations = Asset.animations(for: event, in: .actor)
+        assert(animations.count > 0)
+        assert(animations.count == event.identifiers.count)
+
+        for i in 0..<event.identifiers.count {
+            cyclops.addAnimation(animations[i], forKey: event.identifiers[i])
         }
     }
     
@@ -116,6 +80,20 @@ class GameViewController: UIViewController {
         } else {
             return .all
         }
+    }
+
+}
+
+extension SCNNode {
+
+    var cyclopsParent: SCNNode? {
+        guard let parent = parent else {
+            return nil
+        }
+        if parent.name == "CHARACTER_Cyclops" {
+            return parent
+        }
+        return parent.cyclopsParent
     }
 
 }

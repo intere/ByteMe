@@ -20,8 +20,8 @@ class ByteMeTests: XCTestCase {
     }
 
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let animations = Asset.animations(for: .jumpUp, in: .actor)
+        XCTAssertNotEqual(0, animations.count)
     }
 
     func testPerformanceExample() {
