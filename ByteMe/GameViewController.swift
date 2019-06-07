@@ -12,17 +12,16 @@ import SceneKit
 
 class GameViewController: UIViewController {
 
-    let event = EventGroup.celebration
+    let cyclops = SCNCyclops.loadFromSceneFile()!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // create a new scene
-        let scene = SCNScene(named: "assets.scnassets/NeutralPose.scn")!
+        let scene = SCNScene()
 
         // retrieve the SCNView
         let scnView = self.view as! SCNView
-
 
         // set the scene to the view
         scnView.scene = scene
@@ -41,6 +40,8 @@ class GameViewController: UIViewController {
         // add a tap gesture recognizer
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
         scnView.addGestureRecognizer(tapGesture)
+
+        scene.rootNode.addChildNode(cyclops)
     }
     
     @objc
@@ -53,17 +54,11 @@ class GameViewController: UIViewController {
         let hitResults = scnView.hitTest(p, options: [:])
         // check that we clicked on at least one object
 
-        guard let cyclops = hitResults.first?.node.cyclopsParent else {
+        guard let cyclops = hitResults.first?.node.cyclopsParent as? SCNCyclops else {
             return
         }
 
-        let animations = Asset.animations(for: event, in: .actor)
-        assert(animations.count > 0)
-        assert(animations.count == event.identifiers.count)
-
-        for i in 0..<event.identifiers.count {
-            cyclops.addAnimation(animations[i], forKey: event.identifiers[i])
-        }
+        cyclops.animate(event: .celebration)
     }
     
     override var shouldAutorotate: Bool {
@@ -90,7 +85,7 @@ extension SCNNode {
         guard let parent = parent else {
             return nil
         }
-        if parent.name == "CHARACTER_Cyclops" {
+        if parent is SCNCyclops {
             return parent
         }
         return parent.cyclopsParent

@@ -19,6 +19,7 @@
 		3693CB1522A75E4500B6E74A /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693CB1422A75E4500B6E74A /* HelperExtensions.swift */; };
 		3693CB3922A76E4100B6E74A /* EventGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693CB3822A76E4100B6E74A /* EventGroup.swift */; };
 		3693CB3B22A76EEA00B6E74A /* WorldConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693CB3A22A76EEA00B6E74A /* WorldConfiguration.swift */; };
+		36A9640E22AA0EC20059617E /* SCNCyclops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9640D22AA0EC20059617E /* SCNCyclops.swift */; };
 		7A728990F82B7A9FA3925005 /* Pods_ByteMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D0EC81A6A16C4D1645EF0A /* Pods_ByteMe.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		3693CB1422A75E4500B6E74A /* HelperExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
 		3693CB3822A76E4100B6E74A /* EventGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventGroup.swift; sourceTree = "<group>"; };
 		3693CB3A22A76EEA00B6E74A /* WorldConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldConfiguration.swift; sourceTree = "<group>"; };
+		36A9640D22AA0EC20059617E /* SCNCyclops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNCyclops.swift; sourceTree = "<group>"; };
 		52E2C7DA69D733A45CF2C5E6 /* Pods-ByteMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByteMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByteMe/Pods-ByteMe.debug.xcconfig"; sourceTree = "<group>"; };
 		671C3D32E99F0EA5A2B92DB2 /* Pods-ByteMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByteMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByteMeTests/Pods-ByteMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		76D0EC81A6A16C4D1645EF0A /* Pods_ByteMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByteMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 		3693CA3F22A7544200B6E74A /* ByteMe */ = {
 			isa = PBXGroup;
 			children = (
+				36A9640C22AA0EB20059617E /* Models */,
 				3693CA6522A7585100B6E74A /* BookSource */,
 				3693CA4022A7544200B6E74A /* AppDelegate.swift */,
 				3693CA4222A7544200B6E74A /* assets.scnassets */,
@@ -129,6 +132,14 @@
 				3693CABA22A7587200B6E74A /* Asset.swift */,
 			);
 			path = BookSource;
+			sourceTree = "<group>";
+		};
+		36A9640C22AA0EB20059617E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36A9640D22AA0EC20059617E /* SCNCyclops.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		47A43632D0153973AE9E880F /* Frameworks */ = {
@@ -326,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3693CA4522A7544200B6E74A /* GameViewController.swift in Sources */,
+				36A9640E22AA0EC20059617E /* SCNCyclops.swift in Sources */,
 				3693CB1522A75E4500B6E74A /* HelperExtensions.swift in Sources */,
 				3693CB1122A7587200B6E74A /* Asset.swift in Sources */,
 				3693CB3922A76E4100B6E74A /* EventGroup.swift in Sources */,
