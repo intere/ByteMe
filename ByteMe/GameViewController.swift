@@ -16,6 +16,8 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        navigationController?.pushViewController(ARViewController(), animated: false)
         
         // create a new scene
         let scene = SCNScene()

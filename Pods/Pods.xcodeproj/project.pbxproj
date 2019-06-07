@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00236C834C7A127CE32202698627FDAA /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F9E14F466DBBEA598996CA655D40C /* LayoutItem.swift */; };
-		02BBBADC3E6DC747C030A99DF20EB531 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B67F7ACB4661704F546D54CEFD0861 /* Constraint.swift */; };
-		191C5845A6947F8AE562EE09109F5255 /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF63C100F9E03A43AAF8E07F59833F /* FloatingPoint+Radians.swift */; };
-		21D0B85541B6841048707393A70FE297 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4808AAC0E55D08620371090CE58CC01 /* SceneLocationEstimate.swift */; };
+		03D721AA66DA672FDC2CFB2679604E4C /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60F8FEE6621F8D2180ED636EFE5CCF /* CGPoint+Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		06E2813749801920AD7B4CDB4C7BD933 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E586C5B7B741A7687971DA14D25A4C69 /* Cartography-dummy.m */; };
+		109D3D81AA743D7C156440F879E3D32F /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE125C6F80EFB92AC1C2563C3AF69C4B /* SCNVector3+Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1504AACC43792236DD4FEA69CD67116A /* LocationAnnotationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097FCCDD3065D45ACBB597D8669999AF /* LocationAnnotationNode.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1CD1C05568CB047B83AAC0A097A7D6F0 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BE46D6C895E1D116B707FFF8C4E645 /* Edges.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		22CBA5FDBBC1B11DD22E53A77138F150 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 122BA6FAFC35A2EE5D04054166C39E4F /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D5C4669F6129C16299BFA802B81FA1 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0D2650B24E56E60E449CF491FE01F /* LayoutProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		27AAE1EA6E891E2DAD93B7A0F9100500 /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F9E14F466DBBEA598996CA655D40C /* LayoutItem.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		27FDEDF5364CB9F1D271EB69BD806004 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4D0551C2A299071905C1BA37465F32 /* MapKit.framework */; };
-		28DDDCD8E16F527C375B863AB0D7C6AA /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA731CCD9FEFE351217DCC6325E103 /* LayoutProxy+TypeErasure.swift */; };
-		297AD27064E5F26EF7FAAFE739FA0514 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B87E787995C999740B2378D14FC1B13 /* Context.swift */; };
-		2AE5D2215BF58A3D7FD4F87D256ADEB1 /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6095DA86077A6628E04547B7C1264 /* LayoutGuide.swift */; };
-		3A5E5B04623E4707664C4334CA6905E6 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E586C5B7B741A7687971DA14D25A4C69 /* Cartography-dummy.m */; };
-		41C1283E9FA9D44D9A3B5EEBF7BCCED6 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962FA5C391A0B19480785C81D29A17D /* Expression.swift */; };
+		28B7CCCCABD5C15386A1A6EC667A3A45 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8001583DFF26DAA396FA41A56159AAF1 /* Property.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2DA51A0960CCA134B45115E9EE2D9ED2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3400083BCEA110B1ACDABFE76BA80 /* View.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		364F870330343436CFFFEC331B5F2E3C /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35447A7B227C58C178615C0F6CB20C /* LayoutSupport.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3D09C3B3DE26F727EC536F699C9E5F89 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B67F7ACB4661704F546D54CEFD0861 /* Constraint.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		42D090853976A04B239C6DAA2B61C5D5 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F81A942A5F681CFFD95FE3B0156968 /* Compound.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		446AE031444AA209BD422D5A5A7F2D18 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433BBE54B506356DFAF001281AC838A9 /* CoreLocation.framework */; };
 		44F5E929CE12B35C57F2D08C20ED6DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9E7B5CBF1A3F16A55F6060213FA6C /* Foundation.framework */; };
+		458096DBB059ECBA71C26A50BC089455 /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4E58EA8F53E216A4DF6D5DD9F7C98 /* LayoutSupportProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		490C36E8CF2E49E0C47A0DC951F50F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9E7B5CBF1A3F16A55F6060213FA6C /* Foundation.framework */; };
 		491F5BBD265C009C0569122B822A9479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9E7B5CBF1A3F16A55F6060213FA6C /* Foundation.framework */; };
-		4A471CF53AD5174580D31C108AA6C96C /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEFF17F8AF4790659FD353C9FCC1F70 /* Point.swift */; };
+		4A4BD657EFA2478164BB2A370608DCB3 /* SceneLocationView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA1033C35CCEC6630B749B31972CF3 /* SceneLocationView+Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4AAE7EB165984F6DF7C4D487A5C8CA2C /* ARCL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47220D19099DC4BD2588932DC742FA01 /* ARCL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C03CB78CECC9F7B98FD433C3AE5D436 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D190DEF84812EB9C8FB55C5D189BDA /* LocationNode.swift */; };
-		4EBF41266F2193588CD20AA12212D3C2 /* SceneLocationView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA1033C35CCEC6630B749B31972CF3 /* SceneLocationView+Extensions.swift */; };
-		52BBDED723BCE758ABCC796F2266177B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D068C7BD84D4739F59021792FF145E6 /* Extensions.swift */; };
-		54B928421E9142AB9C478B4799EC1225 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FBE63307358B1E213DE07DE5E7E25C /* Size.swift */; };
-		573C9CE105BFC8826ADBCCCC8F1BC9B9 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F81A942A5F681CFFD95FE3B0156968 /* Compound.swift */; };
-		590E2E8D217D8CC7F87D547BAE7073D2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3400083BCEA110B1ACDABFE76BA80 /* View.swift */; };
+		50521D477FA3E737AF97ECA60B548A25 /* SceneLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A327A1767E2130195713819FFCCAC69 /* SceneLocationManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		59D11584ED25D2DE4CD1E4EB6575C27D /* LayoutGuideProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3497901F07D34FF475498A3B57D13 /* LayoutGuideProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5A85413608C4DC5B7695A3795161BE79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C9452E9D6976856288B9B60EC5B3D /* UIKit.framework */; };
+		5FA0198F39E3D8763328D07E274C5E9B /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571F7E13839B446B3B0BB66E8CD92053 /* Dimension.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5FC45A5437C2034D222DC106C003FC06 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FBE63307358B1E213DE07DE5E7E25C /* Size.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6322FD7963A794CA3C171D1543D8706B /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D190DEF84812EB9C8FB55C5D189BDA /* LocationNode.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		64973501951E24C4E412D55CC448DD3D /* Pods-ByteMeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74864BB07C074B9E69A74E7EF200D687 /* Pods-ByteMeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66FE80F63CE053E6FE1CC2E0F1CCFCC1 /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35447A7B227C58C178615C0F6CB20C /* LayoutSupport.swift */; };
-		671A0F6DE62F40D72D223D7462B6BAB2 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343ADD19CD69687608490F2DDF24570 /* Distribute.swift */; };
-		685A8EB9BB5E42309C03DD9607EB1648 /* ViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA482E2912D29E8B6A91675CF3EC11B /* ViewProxy.swift */; };
-		6D08F969ED781196847E9E8A7083386C /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D33C674AA9407CB75D9CF89EA8F12E /* SceneLocationEstimate+Extensions.swift */; };
-		779CFEB63C5C71608B00D77BA095DFC9 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0D2650B24E56E60E449CF491FE01F /* LayoutProxy.swift */; };
+		6686E62C7603F75C75C17556F879930E /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584DE6F5D49AC214FCEC4B289D0B641 /* Coefficients.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		689A5C934E80C2E7D39E48143B604B79 /* SceneLocationViewEstimateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50CFAC7F7341A406ECB75C2647D8EC /* SceneLocationViewEstimateDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		68B1BC107628985B64C249D3334B0695 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673A5BBC391244E4CE0909726484CFA6 /* Constrain.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6A211245DC33993A3A22A119AEAFD90B /* ScalingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A948A922CF95CE2C69583B4B3A5B7FD /* ScalingScheme.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6EEEFCD667D415BCDCDA1685448130DE /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA731CCD9FEFE351217DCC6325E103 /* LayoutProxy+TypeErasure.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		71AE2F3726F75E98A1ED4BF07268B9C0 /* ARCL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E86B995773C871DA548427131C297 /* ARCL-dummy.m */; };
+		7D7C2B013C4D3E6BA82552572FEFB7F6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D068C7BD84D4739F59021792FF145E6 /* Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		81F83357C0544DEC1D8D2059E8FA07F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9E7B5CBF1A3F16A55F6060213FA6C /* Foundation.framework */; };
 		821748376B0063C69BBAEFD827B01AD5 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8997E011D48716766B3E2969E874BB26 /* SceneKit.framework */; };
-		830DF76D1B7EB7FDDFF0AE4598C5E058 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BE46D6C895E1D116B707FFF8C4E645 /* Edges.swift */; };
-		84C0F90298C911603897B3CCDEFD330F /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584DE6F5D49AC214FCEC4B289D0B641 /* Coefficients.swift */; };
-		8E9B89ACA2072415B356985DFF22E1FB /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F395C3E2BED5F9512FF2310B57DA440 /* CLLocation+Extensions.swift */; };
-		9417C8A528AF526CCB694E8A24750926 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370354BCDB2B2C1467E4BEEC9901285D /* SCNNode+Extensions.swift */; };
-		95A66BE089E756C70E4724889FAA0B8D /* ScalingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A948A922CF95CE2C69583B4B3A5B7FD /* ScalingScheme.swift */; };
-		99CE86F391D6CE28EB52E85B786F96C6 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD395667DA52EE412263EA2DCBDAF2 /* Edge.swift */; };
+		852AD09F6D6E8D3598FD91C25AE80064 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B87E787995C999740B2378D14FC1B13 /* Context.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		88B6F16C29CFD27F057B4B8BC0DDDE70 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4808AAC0E55D08620371090CE58CC01 /* SceneLocationEstimate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8E748F43519F14931FF2F894E138354D /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4638157480A8FB8126F96BBB5CCA486D /* Priority.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		96F4A9A3BA74E81F8BF2B6F542914653 /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D33C674AA9407CB75D9CF89EA8F12E /* SceneLocationEstimate+Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9B4A8DAB58836F77CA0992A4332363B3 /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1C77676753C54F06B223C31D59B9F8 /* SceneLocationView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9DAF40757CD918FD8C3CBF571588B7C8 /* Pods-ByteMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 419DEDA6377CC905FF8B5A8EF06DF6A9 /* Pods-ByteMe-dummy.m */; };
-		9EEF39B0DA95517F805323112A5CBFF8 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B25978C5989E0F9F3FACDDE387092F9 /* Align.swift */; };
-		9EF718F75159DDB10C56E7EE299CA305 /* LocationAnnotationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097FCCDD3065D45ACBB597D8669999AF /* LocationAnnotationNode.swift */; };
-		A4684882243BC71BF44B652111F00E3E /* PolylineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CBDB554715C6261B1AF28AAF14677A /* PolylineNode.swift */; };
-		A75846BC6E5DF1902E22BB032A6FCE0D /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673A5BBC391244E4CE0909726484CFA6 /* Constrain.swift */; };
-		ABBB116A073E7C682F7F6863D5E7729C /* AutoresizingMaskLayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CE54069B2DB0E00853078B8A707D4A /* AutoresizingMaskLayoutProxy.swift */; };
-		B17DCEB708DC06769DE9CEE42A708274 /* SceneLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A327A1767E2130195713819FFCCAC69 /* SceneLocationManager.swift */; };
-		B18D0FCC1DA372BAD6727A62AFA5C8FE /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE125C6F80EFB92AC1C2563C3AF69C4B /* SCNVector3+Extensions.swift */; };
-		BB0AE0F60848088A834341ED2E9A1F77 /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4E58EA8F53E216A4DF6D5DD9F7C98 /* LayoutSupportProxy.swift */; };
-		BB5D4E4A7047047C4C48DF677FFCBF02 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8001583DFF26DAA396FA41A56159AAF1 /* Property.swift */; };
-		C03A14B636DF3284FD0407A0BB4BF26B /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4638157480A8FB8126F96BBB5CCA486D /* Priority.swift */; };
-		C64BCF9DAA9BB230BE6B01D330BABFE9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE57CA64B03E11F66F0FE134B638A9 /* LocationManager.swift */; };
-		C74E4758FEFBDD07A123E384AF47663E /* ARCL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E86B995773C871DA548427131C297 /* ARCL-dummy.m */; };
-		CCACADC1642815C79F90AFB80450B954 /* SceneLocationViewEstimateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50CFAC7F7341A406ECB75C2647D8EC /* SceneLocationViewEstimateDelegate.swift */; };
-		D195FCD710C61AFF4F3CD92187F8C414 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60F8FEE6621F8D2180ED636EFE5CCF /* CGPoint+Extensions.swift */; };
+		9DD9AAC724F799032335BCCFE08A1CD5 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F395C3E2BED5F9512FF2310B57DA440 /* CLLocation+Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A2E1C2795FFC52D7A53D9534906ECBA3 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370354BCDB2B2C1467E4BEEC9901285D /* SCNNode+Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ACF7BE8F53EE43BEC8FB636DE75C9260 /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039CABD35A941D1CE3CF35EA501CE1E /* ConstraintGroup.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AFFAC6C8F1EA88072FF599094EDEB659 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962FA5C391A0B19480785C81D29A17D /* Expression.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B7D41143EC4A075568B69988521B25F6 /* ViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA482E2912D29E8B6A91675CF3EC11B /* ViewProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C3A23ECAE0CBC118A71C8488366F27BC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE57CA64B03E11F66F0FE134B638A9 /* LocationManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CD74CB18595FCBDF81AB63702BE66F49 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEFF17F8AF4790659FD353C9FCC1F70 /* Point.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CDCB1C1E327F4899C046D7E46D377037 /* AutoresizingMaskLayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CE54069B2DB0E00853078B8A707D4A /* AutoresizingMaskLayoutProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD8F7B8D5AA0CA87520A2E5A1421570E /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF63C100F9E03A43AAF8E07F59833F /* FloatingPoint+Radians.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DEF74AC8771C4CB64A297D582EE52D14 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AE1953A4EE18C045E02DA057D5937D /* ARKit.framework */; };
-		E6841949F497AEE368E6D1D84049A15D /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571F7E13839B446B3B0BB66E8CD92053 /* Dimension.swift */; };
-		E94E0AA8F6E06D23E8EB94BEF0483A34 /* BaseTypes+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35265EDC6D0AB0322F7677398F489182 /* BaseTypes+Extensions.swift */; };
-		F1BD29EE223FA3AE81C8C8F973FF2852 /* LayoutGuideProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3497901F07D34FF475498A3B57D13 /* LayoutGuideProxy.swift */; };
-		F25A1A8E53CE5CAB05D2C5D1516A233B /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039CABD35A941D1CE3CF35EA501CE1E /* ConstraintGroup.swift */; };
-		F89B7AF5A67619E9AB81C3714566A31A /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1C77676753C54F06B223C31D59B9F8 /* SceneLocationView.swift */; };
+		E11EC7C44FE0B5AEC976ECA1249079B9 /* BaseTypes+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35265EDC6D0AB0322F7677398F489182 /* BaseTypes+Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E4A875DB10D177F8F8B38E69DD735AE8 /* PolylineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CBDB554715C6261B1AF28AAF14677A /* PolylineNode.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E66B44ACE9F20CD5C0AC7D0F75FD3047 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B25978C5989E0F9F3FACDDE387092F9 /* Align.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E8E9880B2A0D294570AD0C9259E9456E /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6095DA86077A6628E04547B7C1264 /* LayoutGuide.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EB4CB6A8F301019B1E7458E998A6038C /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343ADD19CD69687608490F2DDF24570 /* Distribute.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F1E3EBFBCAE269FE7793E9C758EE9498 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD395667DA52EE412263EA2DCBDAF2 /* Edge.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FDA40594FE7D013B825019A168D06581 /* Pods-ByteMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7987B54801FB7C69065C137CAAAE71D /* Pods-ByteMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE068C29187AE4FD666E917060889271 /* Pods-ByteMeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AF6E55D655E5807E2D944A9D9D7272 /* Pods-ByteMeTests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -474,7 +474,7 @@
 			buildConfigurationList = BCF40F2F311C3013CDE15D5CD0F4F0EB /* Build configuration list for PBXNativeTarget "Cartography" */;
 			buildPhases = (
 				C6264F95D9B1176E8E118DC17BEF2224 /* Headers */,
-				5DE7AA2214B18B20638929413B35E821 /* Sources */,
+				C350000C32599CDE61EE672F86FA855F /* Sources */,
 				B24B4AEDD6A1ED5571C4B3465E0BD152 /* Frameworks */,
 				018047054321B247695B7C34B28EC9B4 /* Resources */,
 			);
@@ -512,7 +512,7 @@
 			buildConfigurationList = 2A3D65ED77470EF21DF451C3BB9C8C0D /* Build configuration list for PBXNativeTarget "ARCL" */;
 			buildPhases = (
 				90C9EC0C1D4D248E4BFF213EFD7E1FB2 /* Headers */,
-				52BC570EF6483716F61F7AC3BB3A939E /* Sources */,
+				A277BDA48CBF40C6E7D84C8B985C0578 /* Sources */,
 				9DBE17FD853A632332A2B06A5B529216 /* Frameworks */,
 				5C63BA8281F70F6EB786951417B7BAD9 /* Resources */,
 			);
@@ -586,63 +586,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52BC570EF6483716F61F7AC3BB3A939E /* Sources */ = {
+		A277BDA48CBF40C6E7D84C8B985C0578 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74E4758FEFBDD07A123E384AF47663E /* ARCL-dummy.m in Sources */,
-				E94E0AA8F6E06D23E8EB94BEF0483A34 /* BaseTypes+Extensions.swift in Sources */,
-				D195FCD710C61AFF4F3CD92187F8C414 /* CGPoint+Extensions.swift in Sources */,
-				8E9B89ACA2072415B356985DFF22E1FB /* CLLocation+Extensions.swift in Sources */,
-				191C5845A6947F8AE562EE09109F5255 /* FloatingPoint+Radians.swift in Sources */,
-				9EF718F75159DDB10C56E7EE299CA305 /* LocationAnnotationNode.swift in Sources */,
-				C64BCF9DAA9BB230BE6B01D330BABFE9 /* LocationManager.swift in Sources */,
-				4C03CB78CECC9F7B98FD433C3AE5D436 /* LocationNode.swift in Sources */,
-				A4684882243BC71BF44B652111F00E3E /* PolylineNode.swift in Sources */,
-				95A66BE089E756C70E4724889FAA0B8D /* ScalingScheme.swift in Sources */,
-				6D08F969ED781196847E9E8A7083386C /* SceneLocationEstimate+Extensions.swift in Sources */,
-				21D0B85541B6841048707393A70FE297 /* SceneLocationEstimate.swift in Sources */,
-				B17DCEB708DC06769DE9CEE42A708274 /* SceneLocationManager.swift in Sources */,
-				4EBF41266F2193588CD20AA12212D3C2 /* SceneLocationView+Extensions.swift in Sources */,
-				F89B7AF5A67619E9AB81C3714566A31A /* SceneLocationView.swift in Sources */,
-				CCACADC1642815C79F90AFB80450B954 /* SceneLocationViewEstimateDelegate.swift in Sources */,
-				9417C8A528AF526CCB694E8A24750926 /* SCNNode+Extensions.swift in Sources */,
-				B18D0FCC1DA372BAD6727A62AFA5C8FE /* SCNVector3+Extensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5DE7AA2214B18B20638929413B35E821 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EEF39B0DA95517F805323112A5CBFF8 /* Align.swift in Sources */,
-				ABBB116A073E7C682F7F6863D5E7729C /* AutoresizingMaskLayoutProxy.swift in Sources */,
-				3A5E5B04623E4707664C4334CA6905E6 /* Cartography-dummy.m in Sources */,
-				84C0F90298C911603897B3CCDEFD330F /* Coefficients.swift in Sources */,
-				573C9CE105BFC8826ADBCCCC8F1BC9B9 /* Compound.swift in Sources */,
-				A75846BC6E5DF1902E22BB032A6FCE0D /* Constrain.swift in Sources */,
-				02BBBADC3E6DC747C030A99DF20EB531 /* Constraint.swift in Sources */,
-				F25A1A8E53CE5CAB05D2C5D1516A233B /* ConstraintGroup.swift in Sources */,
-				297AD27064E5F26EF7FAAFE739FA0514 /* Context.swift in Sources */,
-				E6841949F497AEE368E6D1D84049A15D /* Dimension.swift in Sources */,
-				671A0F6DE62F40D72D223D7462B6BAB2 /* Distribute.swift in Sources */,
-				99CE86F391D6CE28EB52E85B786F96C6 /* Edge.swift in Sources */,
-				830DF76D1B7EB7FDDFF0AE4598C5E058 /* Edges.swift in Sources */,
-				41C1283E9FA9D44D9A3B5EEBF7BCCED6 /* Expression.swift in Sources */,
-				52BBDED723BCE758ABCC796F2266177B /* Extensions.swift in Sources */,
-				2AE5D2215BF58A3D7FD4F87D256ADEB1 /* LayoutGuide.swift in Sources */,
-				F1BD29EE223FA3AE81C8C8F973FF2852 /* LayoutGuideProxy.swift in Sources */,
-				00236C834C7A127CE32202698627FDAA /* LayoutItem.swift in Sources */,
-				28DDDCD8E16F527C375B863AB0D7C6AA /* LayoutProxy+TypeErasure.swift in Sources */,
-				779CFEB63C5C71608B00D77BA095DFC9 /* LayoutProxy.swift in Sources */,
-				66FE80F63CE053E6FE1CC2E0F1CCFCC1 /* LayoutSupport.swift in Sources */,
-				BB0AE0F60848088A834341ED2E9A1F77 /* LayoutSupportProxy.swift in Sources */,
-				4A471CF53AD5174580D31C108AA6C96C /* Point.swift in Sources */,
-				C03A14B636DF3284FD0407A0BB4BF26B /* Priority.swift in Sources */,
-				BB5D4E4A7047047C4C48DF677FFCBF02 /* Property.swift in Sources */,
-				54B928421E9142AB9C478B4799EC1225 /* Size.swift in Sources */,
-				590E2E8D217D8CC7F87D547BAE7073D2 /* View.swift in Sources */,
-				685A8EB9BB5E42309C03DD9607EB1648 /* ViewProxy.swift in Sources */,
+				71AE2F3726F75E98A1ED4BF07268B9C0 /* ARCL-dummy.m in Sources */,
+				E11EC7C44FE0B5AEC976ECA1249079B9 /* BaseTypes+Extensions.swift in Sources */,
+				03D721AA66DA672FDC2CFB2679604E4C /* CGPoint+Extensions.swift in Sources */,
+				9DD9AAC724F799032335BCCFE08A1CD5 /* CLLocation+Extensions.swift in Sources */,
+				DD8F7B8D5AA0CA87520A2E5A1421570E /* FloatingPoint+Radians.swift in Sources */,
+				1504AACC43792236DD4FEA69CD67116A /* LocationAnnotationNode.swift in Sources */,
+				C3A23ECAE0CBC118A71C8488366F27BC /* LocationManager.swift in Sources */,
+				6322FD7963A794CA3C171D1543D8706B /* LocationNode.swift in Sources */,
+				E4A875DB10D177F8F8B38E69DD735AE8 /* PolylineNode.swift in Sources */,
+				6A211245DC33993A3A22A119AEAFD90B /* ScalingScheme.swift in Sources */,
+				96F4A9A3BA74E81F8BF2B6F542914653 /* SceneLocationEstimate+Extensions.swift in Sources */,
+				88B6F16C29CFD27F057B4B8BC0DDDE70 /* SceneLocationEstimate.swift in Sources */,
+				50521D477FA3E737AF97ECA60B548A25 /* SceneLocationManager.swift in Sources */,
+				4A4BD657EFA2478164BB2A370608DCB3 /* SceneLocationView+Extensions.swift in Sources */,
+				9B4A8DAB58836F77CA0992A4332363B3 /* SceneLocationView.swift in Sources */,
+				689A5C934E80C2E7D39E48143B604B79 /* SceneLocationViewEstimateDelegate.swift in Sources */,
+				A2E1C2795FFC52D7A53D9534906ECBA3 /* SCNNode+Extensions.swift in Sources */,
+				109D3D81AA743D7C156440F879E3D32F /* SCNVector3+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +616,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DAF40757CD918FD8C3CBF571588B7C8 /* Pods-ByteMe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C350000C32599CDE61EE672F86FA855F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66B44ACE9F20CD5C0AC7D0F75FD3047 /* Align.swift in Sources */,
+				CDCB1C1E327F4899C046D7E46D377037 /* AutoresizingMaskLayoutProxy.swift in Sources */,
+				06E2813749801920AD7B4CDB4C7BD933 /* Cartography-dummy.m in Sources */,
+				6686E62C7603F75C75C17556F879930E /* Coefficients.swift in Sources */,
+				42D090853976A04B239C6DAA2B61C5D5 /* Compound.swift in Sources */,
+				68B1BC107628985B64C249D3334B0695 /* Constrain.swift in Sources */,
+				3D09C3B3DE26F727EC536F699C9E5F89 /* Constraint.swift in Sources */,
+				ACF7BE8F53EE43BEC8FB636DE75C9260 /* ConstraintGroup.swift in Sources */,
+				852AD09F6D6E8D3598FD91C25AE80064 /* Context.swift in Sources */,
+				5FA0198F39E3D8763328D07E274C5E9B /* Dimension.swift in Sources */,
+				EB4CB6A8F301019B1E7458E998A6038C /* Distribute.swift in Sources */,
+				F1E3EBFBCAE269FE7793E9C758EE9498 /* Edge.swift in Sources */,
+				1CD1C05568CB047B83AAC0A097A7D6F0 /* Edges.swift in Sources */,
+				AFFAC6C8F1EA88072FF599094EDEB659 /* Expression.swift in Sources */,
+				7D7C2B013C4D3E6BA82552572FEFB7F6 /* Extensions.swift in Sources */,
+				E8E9880B2A0D294570AD0C9259E9456E /* LayoutGuide.swift in Sources */,
+				59D11584ED25D2DE4CD1E4EB6575C27D /* LayoutGuideProxy.swift in Sources */,
+				27AAE1EA6E891E2DAD93B7A0F9100500 /* LayoutItem.swift in Sources */,
+				6EEEFCD667D415BCDCDA1685448130DE /* LayoutProxy+TypeErasure.swift in Sources */,
+				26D5C4669F6129C16299BFA802B81FA1 /* LayoutProxy.swift in Sources */,
+				364F870330343436CFFFEC331B5F2E3C /* LayoutSupport.swift in Sources */,
+				458096DBB059ECBA71C26A50BC089455 /* LayoutSupportProxy.swift in Sources */,
+				CD74CB18595FCBDF81AB63702BE66F49 /* Point.swift in Sources */,
+				8E748F43519F14931FF2F894E138354D /* Priority.swift in Sources */,
+				28B7CCCCABD5C15386A1A6EC667A3A45 /* Property.swift in Sources */,
+				5FC45A5437C2034D222DC106C003FC06 /* Size.swift in Sources */,
+				2DA51A0960CCA134B45115E9EE2D9ED2 /* View.swift in Sources */,
+				B7D41143EC4A075568B69988521B25F6 /* ViewProxy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,8 @@
 		3693CB3922A76E4100B6E74A /* EventGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693CB3822A76E4100B6E74A /* EventGroup.swift */; };
 		3693CB3B22A76EEA00B6E74A /* WorldConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693CB3A22A76EEA00B6E74A /* WorldConfiguration.swift */; };
 		36A9640E22AA0EC20059617E /* SCNCyclops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9640D22AA0EC20059617E /* SCNCyclops.swift */; };
+		36BA895622AA17F900FDEB70 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA895522AA17F900FDEB70 /* ARViewController.swift */; };
+		36BA895922AA1B1800FDEB70 /* LocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA895822AA1B1800FDEB70 /* LocationExtensions.swift */; };
 		7A728990F82B7A9FA3925005 /* Pods_ByteMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D0EC81A6A16C4D1645EF0A /* Pods_ByteMe.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		3693CB3822A76E4100B6E74A /* EventGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventGroup.swift; sourceTree = "<group>"; };
 		3693CB3A22A76EEA00B6E74A /* WorldConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldConfiguration.swift; sourceTree = "<group>"; };
 		36A9640D22AA0EC20059617E /* SCNCyclops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNCyclops.swift; sourceTree = "<group>"; };
+		36BA895522AA17F900FDEB70 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		36BA895822AA1B1800FDEB70 /* LocationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationExtensions.swift; sourceTree = "<group>"; };
 		52E2C7DA69D733A45CF2C5E6 /* Pods-ByteMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByteMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByteMe/Pods-ByteMe.debug.xcconfig"; sourceTree = "<group>"; };
 		671C3D32E99F0EA5A2B92DB2 /* Pods-ByteMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByteMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByteMeTests/Pods-ByteMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		76D0EC81A6A16C4D1645EF0A /* Pods_ByteMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByteMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +105,8 @@
 		3693CA3F22A7544200B6E74A /* ByteMe */ = {
 			isa = PBXGroup;
 			children = (
+				36BA895722AA1B0E00FDEB70 /* Extensions */,
+				36BA895422AA17E600FDEB70 /* Controllers */,
 				36A9640C22AA0EB20059617E /* Models */,
 				3693CA6522A7585100B6E74A /* BookSource */,
 				3693CA4022A7544200B6E74A /* AppDelegate.swift */,
@@ -140,6 +146,22 @@
 				36A9640D22AA0EC20059617E /* SCNCyclops.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		36BA895422AA17E600FDEB70 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				36BA895522AA17F900FDEB70 /* ARViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		36BA895722AA1B0E00FDEB70 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				36BA895822AA1B1800FDEB70 /* LocationExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		47A43632D0153973AE9E880F /* Frameworks */ = {
@@ -341,6 +363,8 @@
 				3693CA4522A7544200B6E74A /* GameViewController.swift in Sources */,
 				36A9640E22AA0EC20059617E /* SCNCyclops.swift in Sources */,
 				3693CB1522A75E4500B6E74A /* HelperExtensions.swift in Sources */,
+				36BA895622AA17F900FDEB70 /* ARViewController.swift in Sources */,
+				36BA895922AA1B1800FDEB70 /* LocationExtensions.swift in Sources */,
 				3693CB1122A7587200B6E74A /* Asset.swift in Sources */,
 				3693CB3922A76E4100B6E74A /* EventGroup.swift in Sources */,
 				3693CA4122A7544200B6E74A /* AppDelegate.swift in Sources */,
@@ -437,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -492,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
