@@ -7,118 +7,189 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		028F236798063699F38A8E1CD90C8D9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9E7B5CBF1A3F16A55F6060213FA6C /* Foundation.framework */; };
-		191C5845A6947F8AE562EE09109F5255 /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED275F08D0F25A6F29A44207E90627 /* FloatingPoint+Radians.swift */; };
-		21D0B85541B6841048707393A70FE297 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C05DE7C6252CFC353FDDB4DC8310D9 /* SceneLocationEstimate.swift */; };
+		00236C834C7A127CE32202698627FDAA /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F9E14F466DBBEA598996CA655D40C /* LayoutItem.swift */; };
+		02BBBADC3E6DC747C030A99DF20EB531 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B67F7ACB4661704F546D54CEFD0861 /* Constraint.swift */; };
+		191C5845A6947F8AE562EE09109F5255 /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF63C100F9E03A43AAF8E07F59833F /* FloatingPoint+Radians.swift */; };
+		21D0B85541B6841048707393A70FE297 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4808AAC0E55D08620371090CE58CC01 /* SceneLocationEstimate.swift */; };
+		22CBA5FDBBC1B11DD22E53A77138F150 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 122BA6FAFC35A2EE5D04054166C39E4F /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27FDEDF5364CB9F1D271EB69BD806004 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4D0551C2A299071905C1BA37465F32 /* MapKit.framework */; };
+		28DDDCD8E16F527C375B863AB0D7C6AA /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA731CCD9FEFE351217DCC6325E103 /* LayoutProxy+TypeErasure.swift */; };
+		297AD27064E5F26EF7FAAFE739FA0514 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B87E787995C999740B2378D14FC1B13 /* Context.swift */; };
+		2AE5D2215BF58A3D7FD4F87D256ADEB1 /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6095DA86077A6628E04547B7C1264 /* LayoutGuide.swift */; };
+		3A5E5B04623E4707664C4334CA6905E6 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E586C5B7B741A7687971DA14D25A4C69 /* Cartography-dummy.m */; };
+		41C1283E9FA9D44D9A3B5EEBF7BCCED6 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962FA5C391A0B19480785C81D29A17D /* Expression.swift */; };
 		446AE031444AA209BD422D5A5A7F2D18 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433BBE54B506356DFAF001281AC838A9 /* CoreLocation.framework */; };
+		44F5E929CE12B35C57F2D08C20ED6DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9E7B5CBF1A3F16A55F6060213FA6C /* Foundation.framework */; };
 		490C36E8CF2E49E0C47A0DC951F50F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9E7B5CBF1A3F16A55F6060213FA6C /* Foundation.framework */; };
-		4AAE7EB165984F6DF7C4D487A5C8CA2C /* ARCL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4937057E878D6FC57E868E18F4A64E /* ARCL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C03CB78CECC9F7B98FD433C3AE5D436 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94D7E6F8748ED0D9E414A234285261D /* LocationNode.swift */; };
-		4EBF41266F2193588CD20AA12212D3C2 /* SceneLocationView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD0010D9A30418A78624702395E712 /* SceneLocationView+Extensions.swift */; };
+		491F5BBD265C009C0569122B822A9479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9E7B5CBF1A3F16A55F6060213FA6C /* Foundation.framework */; };
+		4A471CF53AD5174580D31C108AA6C96C /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEFF17F8AF4790659FD353C9FCC1F70 /* Point.swift */; };
+		4AAE7EB165984F6DF7C4D487A5C8CA2C /* ARCL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47220D19099DC4BD2588932DC742FA01 /* ARCL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C03CB78CECC9F7B98FD433C3AE5D436 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D190DEF84812EB9C8FB55C5D189BDA /* LocationNode.swift */; };
+		4EBF41266F2193588CD20AA12212D3C2 /* SceneLocationView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA1033C35CCEC6630B749B31972CF3 /* SceneLocationView+Extensions.swift */; };
+		52BBDED723BCE758ABCC796F2266177B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D068C7BD84D4739F59021792FF145E6 /* Extensions.swift */; };
+		54B928421E9142AB9C478B4799EC1225 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FBE63307358B1E213DE07DE5E7E25C /* Size.swift */; };
+		573C9CE105BFC8826ADBCCCC8F1BC9B9 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F81A942A5F681CFFD95FE3B0156968 /* Compound.swift */; };
+		590E2E8D217D8CC7F87D547BAE7073D2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3400083BCEA110B1ACDABFE76BA80 /* View.swift */; };
 		5A85413608C4DC5B7695A3795161BE79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C9452E9D6976856288B9B60EC5B3D /* UIKit.framework */; };
-		5BD026892A47B5E6D64E30618DB3A3FD /* Pods-ByteMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7987B54801FB7C69065C137CAAAE71D /* Pods-ByteMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64973501951E24C4E412D55CC448DD3D /* Pods-ByteMeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74864BB07C074B9E69A74E7EF200D687 /* Pods-ByteMeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D08F969ED781196847E9E8A7083386C /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E722DD847BD1E10E26D00CC75962B /* SceneLocationEstimate+Extensions.swift */; };
+		66FE80F63CE053E6FE1CC2E0F1CCFCC1 /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35447A7B227C58C178615C0F6CB20C /* LayoutSupport.swift */; };
+		671A0F6DE62F40D72D223D7462B6BAB2 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343ADD19CD69687608490F2DDF24570 /* Distribute.swift */; };
+		685A8EB9BB5E42309C03DD9607EB1648 /* ViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA482E2912D29E8B6A91675CF3EC11B /* ViewProxy.swift */; };
+		6D08F969ED781196847E9E8A7083386C /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D33C674AA9407CB75D9CF89EA8F12E /* SceneLocationEstimate+Extensions.swift */; };
+		779CFEB63C5C71608B00D77BA095DFC9 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0D2650B24E56E60E449CF491FE01F /* LayoutProxy.swift */; };
 		81F83357C0544DEC1D8D2059E8FA07F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9E7B5CBF1A3F16A55F6060213FA6C /* Foundation.framework */; };
 		821748376B0063C69BBAEFD827B01AD5 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8997E011D48716766B3E2969E874BB26 /* SceneKit.framework */; };
-		8E9B89ACA2072415B356985DFF22E1FB /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E23BF00C9DB2C35FC4815CA133637E /* CLLocation+Extensions.swift */; };
-		9417C8A528AF526CCB694E8A24750926 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3E7A8786029D76A3CE7E4D4F5D6F68 /* SCNNode+Extensions.swift */; };
-		95A66BE089E756C70E4724889FAA0B8D /* ScalingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB1B2465917DC7B60B615694114F36 /* ScalingScheme.swift */; };
-		9EF718F75159DDB10C56E7EE299CA305 /* LocationAnnotationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA9C71472F183BF58E1033EA0F7457 /* LocationAnnotationNode.swift */; };
-		A4684882243BC71BF44B652111F00E3E /* PolylineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D423DCCFEEFF4D38C9FC647355B772FA /* PolylineNode.swift */; };
-		ADC6AC65AF1A1DA531A37499FD605BC6 /* Pods-ByteMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 419DEDA6377CC905FF8B5A8EF06DF6A9 /* Pods-ByteMe-dummy.m */; };
-		B17DCEB708DC06769DE9CEE42A708274 /* SceneLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20C55A85AC1205813EB08FBAF00843 /* SceneLocationManager.swift */; };
-		B18D0FCC1DA372BAD6727A62AFA5C8FE /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670101E501D5E31525E399816795D1B2 /* SCNVector3+Extensions.swift */; };
-		C64BCF9DAA9BB230BE6B01D330BABFE9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EACD8F7EAB687D32ACE92C98038D7C /* LocationManager.swift */; };
-		C74E4758FEFBDD07A123E384AF47663E /* ARCL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C035583B0F182B0D644BC99327DDDC56 /* ARCL-dummy.m */; };
-		CCACADC1642815C79F90AFB80450B954 /* SceneLocationViewEstimateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12210FA1F42EFD5FE887AAB920490BC /* SceneLocationViewEstimateDelegate.swift */; };
-		D195FCD710C61AFF4F3CD92187F8C414 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1B486E13C94398F301628D5CDB1A7 /* CGPoint+Extensions.swift */; };
+		830DF76D1B7EB7FDDFF0AE4598C5E058 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BE46D6C895E1D116B707FFF8C4E645 /* Edges.swift */; };
+		84C0F90298C911603897B3CCDEFD330F /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584DE6F5D49AC214FCEC4B289D0B641 /* Coefficients.swift */; };
+		8E9B89ACA2072415B356985DFF22E1FB /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F395C3E2BED5F9512FF2310B57DA440 /* CLLocation+Extensions.swift */; };
+		9417C8A528AF526CCB694E8A24750926 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370354BCDB2B2C1467E4BEEC9901285D /* SCNNode+Extensions.swift */; };
+		95A66BE089E756C70E4724889FAA0B8D /* ScalingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A948A922CF95CE2C69583B4B3A5B7FD /* ScalingScheme.swift */; };
+		99CE86F391D6CE28EB52E85B786F96C6 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD395667DA52EE412263EA2DCBDAF2 /* Edge.swift */; };
+		9DAF40757CD918FD8C3CBF571588B7C8 /* Pods-ByteMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 419DEDA6377CC905FF8B5A8EF06DF6A9 /* Pods-ByteMe-dummy.m */; };
+		9EEF39B0DA95517F805323112A5CBFF8 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B25978C5989E0F9F3FACDDE387092F9 /* Align.swift */; };
+		9EF718F75159DDB10C56E7EE299CA305 /* LocationAnnotationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097FCCDD3065D45ACBB597D8669999AF /* LocationAnnotationNode.swift */; };
+		A4684882243BC71BF44B652111F00E3E /* PolylineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CBDB554715C6261B1AF28AAF14677A /* PolylineNode.swift */; };
+		A75846BC6E5DF1902E22BB032A6FCE0D /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673A5BBC391244E4CE0909726484CFA6 /* Constrain.swift */; };
+		ABBB116A073E7C682F7F6863D5E7729C /* AutoresizingMaskLayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CE54069B2DB0E00853078B8A707D4A /* AutoresizingMaskLayoutProxy.swift */; };
+		B17DCEB708DC06769DE9CEE42A708274 /* SceneLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A327A1767E2130195713819FFCCAC69 /* SceneLocationManager.swift */; };
+		B18D0FCC1DA372BAD6727A62AFA5C8FE /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE125C6F80EFB92AC1C2563C3AF69C4B /* SCNVector3+Extensions.swift */; };
+		BB0AE0F60848088A834341ED2E9A1F77 /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4E58EA8F53E216A4DF6D5DD9F7C98 /* LayoutSupportProxy.swift */; };
+		BB5D4E4A7047047C4C48DF677FFCBF02 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8001583DFF26DAA396FA41A56159AAF1 /* Property.swift */; };
+		C03A14B636DF3284FD0407A0BB4BF26B /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4638157480A8FB8126F96BBB5CCA486D /* Priority.swift */; };
+		C64BCF9DAA9BB230BE6B01D330BABFE9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE57CA64B03E11F66F0FE134B638A9 /* LocationManager.swift */; };
+		C74E4758FEFBDD07A123E384AF47663E /* ARCL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E86B995773C871DA548427131C297 /* ARCL-dummy.m */; };
+		CCACADC1642815C79F90AFB80450B954 /* SceneLocationViewEstimateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50CFAC7F7341A406ECB75C2647D8EC /* SceneLocationViewEstimateDelegate.swift */; };
+		D195FCD710C61AFF4F3CD92187F8C414 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60F8FEE6621F8D2180ED636EFE5CCF /* CGPoint+Extensions.swift */; };
 		DEF74AC8771C4CB64A297D582EE52D14 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AE1953A4EE18C045E02DA057D5937D /* ARKit.framework */; };
-		E94E0AA8F6E06D23E8EB94BEF0483A34 /* BaseTypes+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED24DA57F6403001AD4F884DAF737FD /* BaseTypes+Extensions.swift */; };
-		F89B7AF5A67619E9AB81C3714566A31A /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2F818E04E13DA60847738487E0C0A /* SceneLocationView.swift */; };
+		E6841949F497AEE368E6D1D84049A15D /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571F7E13839B446B3B0BB66E8CD92053 /* Dimension.swift */; };
+		E94E0AA8F6E06D23E8EB94BEF0483A34 /* BaseTypes+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35265EDC6D0AB0322F7677398F489182 /* BaseTypes+Extensions.swift */; };
+		F1BD29EE223FA3AE81C8C8F973FF2852 /* LayoutGuideProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3497901F07D34FF475498A3B57D13 /* LayoutGuideProxy.swift */; };
+		F25A1A8E53CE5CAB05D2C5D1516A233B /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039CABD35A941D1CE3CF35EA501CE1E /* ConstraintGroup.swift */; };
+		F89B7AF5A67619E9AB81C3714566A31A /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1C77676753C54F06B223C31D59B9F8 /* SceneLocationView.swift */; };
+		FDA40594FE7D013B825019A168D06581 /* Pods-ByteMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7987B54801FB7C69065C137CAAAE71D /* Pods-ByteMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE068C29187AE4FD666E917060889271 /* Pods-ByteMeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AF6E55D655E5807E2D944A9D9D7272 /* Pods-ByteMeTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B5FA28AB5A8EE262E6AD33EE178CAF34 /* PBXContainerItemProxy */ = {
+		1D261E71D609AEE61596B56DAE9975A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57DDDA5C831455FB20F4FF618CF51434;
+			remoteInfo = Cartography;
+		};
+		B6B8566513F166FE128CB4EFA8FC9F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A657DDC528BB8C28E08AC6284D379AF1;
+			remoteInfo = "Pods-ByteMe";
+		};
+		DC1F924BA438D47BBD40302267924E6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D89E8EA17E6DD8858E9F360D5D49AC51;
 			remoteInfo = ARCL;
 		};
-		B6B8566513F166FE128CB4EFA8FC9F9B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 409CF200C71334B099EC2337A6BD3792;
-			remoteInfo = "Pods-ByteMe";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04C05DE7C6252CFC353FDDB4DC8310D9 /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationEstimate.swift; path = "ARCL/Source/Location Manager/SceneLocationEstimate.swift"; sourceTree = "<group>"; };
+		00B6095DA86077A6628E04547B7C1264 /* LayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuide.swift; path = Cartography/LayoutGuide.swift; sourceTree = "<group>"; };
+		0584DE6F5D49AC214FCEC4B289D0B641 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		05D190DEF84812EB9C8FB55C5D189BDA /* LocationNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationNode.swift; path = ARCL/Source/Nodes/LocationNode.swift; sourceTree = "<group>"; };
 		08A9ED412CE951853CAB7439CF73C968 /* Pods-ByteMeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ByteMeTests.modulemap"; sourceTree = "<group>"; };
+		097FCCDD3065D45ACBB597D8669999AF /* LocationAnnotationNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationAnnotationNode.swift; path = ARCL/Source/Nodes/LocationAnnotationNode.swift; sourceTree = "<group>"; };
+		0B25978C5989E0F9F3FACDDE387092F9 /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
 		0BBAFE677CFEBD54381B003290B1DD4E /* Pods-ByteMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ByteMeTests.release.xcconfig"; sourceTree = "<group>"; };
-		0D4937057E878D6FC57E868E18F4A64E /* ARCL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCL-umbrella.h"; sourceTree = "<group>"; };
 		0E13FCA8E06D61E4901E07A0FDB2CB9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F395C3E2BED5F9512FF2310B57DA440 /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocation+Extensions.swift"; path = "ARCL/Source/Extensions/CLLocation+Extensions.swift"; sourceTree = "<group>"; };
 		100A374D2A80C3C42CC01BEDBFA98660 /* Pods-ByteMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ByteMe.release.xcconfig"; sourceTree = "<group>"; };
+		122BA6FAFC35A2EE5D04054166C39E4F /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		13CE54069B2DB0E00853078B8A707D4A /* AutoresizingMaskLayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoresizingMaskLayoutProxy.swift; path = Cartography/AutoresizingMaskLayoutProxy.swift; sourceTree = "<group>"; };
+		169B513D709FC10C3B6F600DA780BF9A /* Pods_ByteMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ByteMe.framework; path = "Pods-ByteMe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1948FD7E3239C53EFACB3AB78F10323C /* Pods-ByteMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ByteMeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1DEAD7361A985675870823C620DA5D6B /* Pods_ByteMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ByteMe.framework; path = "Pods-ByteMe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EBEF3AF578FBB12C7B984D6C28B5371 /* ARCL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARCL.framework; path = ARCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22E23BF00C9DB2C35FC4815CA133637E /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocation+Extensions.swift"; path = "ARCL/Source/Extensions/CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		19FA731CCD9FEFE351217DCC6325E103 /* LayoutProxy+TypeErasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LayoutProxy+TypeErasure.swift"; path = "Cartography/LayoutProxy+TypeErasure.swift"; sourceTree = "<group>"; };
+		1A71A4295178317ABD8935AE00069463 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cartography.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2039CABD35A941D1CE3CF35EA501CE1E /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		20B67F7ACB4661704F546D54CEFD0861 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		21FBE63307358B1E213DE07DE5E7E25C /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		333706F353ADFC629190891DEA482DB9 /* ARCL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARCL.modulemap; sourceTree = "<group>"; };
+		25CBDB554715C6261B1AF28AAF14677A /* PolylineNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PolylineNode.swift; path = ARCL/Source/Nodes/PolylineNode.swift; sourceTree = "<group>"; };
+		272E86B995773C871DA548427131C297 /* ARCL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARCL-dummy.m"; sourceTree = "<group>"; };
+		27FD395667DA52EE412263EA2DCBDAF2 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		28C4E58EA8F53E216A4DF6D5DD9F7C98 /* LayoutSupportProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupportProxy.swift; path = Cartography/LayoutSupportProxy.swift; sourceTree = "<group>"; };
+		295942DF98C35BE86A763BD3DB0C7F0A /* ARCL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARCL.modulemap; sourceTree = "<group>"; };
+		2A948A922CF95CE2C69583B4B3A5B7FD /* ScalingScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScalingScheme.swift; path = ARCL/Source/Nodes/ScalingScheme.swift; sourceTree = "<group>"; };
+		2C3CD9D1EABC731CF8FE2FA7A058C5A9 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cartography.modulemap; sourceTree = "<group>"; };
+		2DA482E2912D29E8B6A91675CF3EC11B /* ViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProxy.swift; path = Cartography/ViewProxy.swift; sourceTree = "<group>"; };
+		33AF63C100F9E03A43AAF8E07F59833F /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+Radians.swift"; path = "ARCL/Source/Extensions/FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
+		35265EDC6D0AB0322F7677398F489182 /* BaseTypes+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BaseTypes+Extensions.swift"; path = "ARCL/Source/Extensions/BaseTypes+Extensions.swift"; sourceTree = "<group>"; };
+		370354BCDB2B2C1467E4BEEC9901285D /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNNode+Extensions.swift"; path = "ARCL/Source/Extensions/SCNNode+Extensions.swift"; sourceTree = "<group>"; };
+		3DEE57CA64B03E11F66F0FE134B638A9 /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "ARCL/Source/Location Manager/LocationManager.swift"; sourceTree = "<group>"; };
+		3EEFF17F8AF4790659FD353C9FCC1F70 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
 		419DEDA6377CC905FF8B5A8EF06DF6A9 /* Pods-ByteMe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ByteMe-dummy.m"; sourceTree = "<group>"; };
 		433BBE54B506356DFAF001281AC838A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		452698E8AE6B1A241D97F9CAB2FCCE5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58CD0010D9A30418A78624702395E712 /* SceneLocationView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SceneLocationView+Extensions.swift"; path = "ARCL/Source/SceneLocationView+Extensions.swift"; sourceTree = "<group>"; };
-		596E722DD847BD1E10E26D00CC75962B /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SceneLocationEstimate+Extensions.swift"; path = "ARCL/Source/Location Manager/SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		45D33C674AA9407CB75D9CF89EA8F12E /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SceneLocationEstimate+Extensions.swift"; path = "ARCL/Source/Location Manager/SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		4638157480A8FB8126F96BBB5CCA486D /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		47220D19099DC4BD2588932DC742FA01 /* ARCL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCL-umbrella.h"; sourceTree = "<group>"; };
+		4962FA5C391A0B19480785C81D29A17D /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		4A327A1767E2130195713819FFCCAC69 /* SceneLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationManager.swift; path = "ARCL/Source/Location Manager/SceneLocationManager.swift"; sourceTree = "<group>"; };
+		4B35447A7B227C58C178615C0F6CB20C /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
+		571F7E13839B446B3B0BB66E8CD92053 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		591E7017144C426EB7EA3752A5558B67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA1CF55FDCBBDFDC031BB910E3656E8 /* Pods-ByteMe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ByteMe-frameworks.sh"; sourceTree = "<group>"; };
-		5D3E7A8786029D76A3CE7E4D4F5D6F68 /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNNode+Extensions.swift"; path = "ARCL/Source/Extensions/SCNNode+Extensions.swift"; sourceTree = "<group>"; };
 		5D4D0551C2A299071905C1BA37465F32 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		670101E501D5E31525E399816795D1B2 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNVector3+Extensions.swift"; path = "ARCL/Source/Extensions/SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		6343ADD19CD69687608490F2DDF24570 /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		673A5BBC391244E4CE0909726484CFA6 /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
 		6CB47B93F258190F4C5853DFB4172250 /* Pods-ByteMeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ByteMeTests-frameworks.sh"; sourceTree = "<group>"; };
+		6D068C7BD84D4739F59021792FF145E6 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		6D1C77676753C54F06B223C31D59B9F8 /* SceneLocationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationView.swift; path = ARCL/Source/SceneLocationView.swift; sourceTree = "<group>"; };
 		74864BB07C074B9E69A74E7EF200D687 /* Pods-ByteMeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ByteMeTests-umbrella.h"; sourceTree = "<group>"; };
-		7D20C55A85AC1205813EB08FBAF00843 /* SceneLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationManager.swift; path = "ARCL/Source/Location Manager/SceneLocationManager.swift"; sourceTree = "<group>"; };
+		7B87E787995C999740B2378D14FC1B13 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		8001583DFF26DAA396FA41A56159AAF1 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		87BA1033C35CCEC6630B749B31972CF3 /* SceneLocationView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SceneLocationView+Extensions.swift"; path = "ARCL/Source/SceneLocationView+Extensions.swift"; sourceTree = "<group>"; };
 		8997E011D48716766B3E2969E874BB26 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
-		8CCA9C71472F183BF58E1033EA0F7457 /* LocationAnnotationNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationAnnotationNode.swift; path = ARCL/Source/Nodes/LocationAnnotationNode.swift; sourceTree = "<group>"; };
 		8E16EEB1102A92380B7664D7CEE849E7 /* Pods-ByteMe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ByteMe.modulemap"; sourceTree = "<group>"; };
-		8ED24DA57F6403001AD4F884DAF737FD /* BaseTypes+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BaseTypes+Extensions.swift"; path = "ARCL/Source/Extensions/BaseTypes+Extensions.swift"; sourceTree = "<group>"; };
 		943FD910C7415B87A317C46F5B6B914D /* Pods-ByteMeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ByteMeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		97228470298A0D54F1521C64530BFEC2 /* ARCL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARCL.xcconfig; sourceTree = "<group>"; };
+		9B566DA7DBE4E06C91CBB1D65A5DE759 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		9EE0D2650B24E56E60E449CF491FE01F /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
 		A59C9452E9D6976856288B9B60EC5B3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AF9ADB7DBA88C621C1ABA6681AF34C93 /* Pods-ByteMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ByteMe.debug.xcconfig"; sourceTree = "<group>"; };
 		B3F9E7B5CBF1A3F16A55F6060213FA6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B4EACD8F7EAB687D32ACE92C98038D7C /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "ARCL/Source/Location Manager/LocationManager.swift"; sourceTree = "<group>"; };
-		BCA1B486E13C94398F301628D5CDB1A7 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extensions.swift"; path = "ARCL/Source/Extensions/CGPoint+Extensions.swift"; sourceTree = "<group>"; };
-		C035583B0F182B0D644BC99327DDDC56 /* ARCL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARCL-dummy.m"; sourceTree = "<group>"; };
+		B4808AAC0E55D08620371090CE58CC01 /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationEstimate.swift; path = "ARCL/Source/Location Manager/SceneLocationEstimate.swift"; sourceTree = "<group>"; };
+		B4F3497901F07D34FF475498A3B57D13 /* LayoutGuideProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuideProxy.swift; path = Cartography/LayoutGuideProxy.swift; sourceTree = "<group>"; };
+		B9FAFAFAD8DE456CDB70F5E6D6462F50 /* Pods_ByteMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ByteMeTests.framework; path = "Pods-ByteMeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9DA0B4163A7CB1B57C9417DB579D62 /* ARCL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARCL.framework; path = ARCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE125C6F80EFB92AC1C2563C3AF69C4B /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNVector3+Extensions.swift"; path = "ARCL/Source/Extensions/SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		C0F81A942A5F681CFFD95FE3B0156968 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		C649EECC17A67880F6891CE99CF6E340 /* ARCL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCL-prefix.pch"; sourceTree = "<group>"; };
 		C8BFCDBA38B99D769F9562D367D53064 /* Pods-ByteMe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ByteMe-acknowledgements.plist"; sourceTree = "<group>"; };
-		C94D7E6F8748ED0D9E414A234285261D /* LocationNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationNode.swift; path = ARCL/Source/Nodes/LocationNode.swift; sourceTree = "<group>"; };
+		CB60F8FEE6621F8D2180ED636EFE5CCF /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extensions.swift"; path = "ARCL/Source/Extensions/CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		CD9F9E14F466DBBEA598996CA655D40C /* LayoutItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutItem.swift; path = Cartography/LayoutItem.swift; sourceTree = "<group>"; };
+		CE50CFAC7F7341A406ECB75C2647D8EC /* SceneLocationViewEstimateDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationViewEstimateDelegate.swift; path = ARCL/Source/SceneLocationViewEstimateDelegate.swift; sourceTree = "<group>"; };
 		D007C3AD65064B571D2EFFD649455495 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02B27762AA40EE837B66EBD5432CCD2 /* Pods-ByteMe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ByteMe-resources.sh"; sourceTree = "<group>"; };
-		D12210FA1F42EFD5FE887AAB920490BC /* SceneLocationViewEstimateDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationViewEstimateDelegate.swift; path = ARCL/Source/SceneLocationViewEstimateDelegate.swift; sourceTree = "<group>"; };
 		D1AF6E55D655E5807E2D944A9D9D7272 /* Pods-ByteMeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ByteMeTests-dummy.m"; sourceTree = "<group>"; };
+		D1C3400083BCEA110B1ACDABFE76BA80 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
 		D2AE1953A4EE18C045E02DA057D5937D /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ARKit.framework; sourceTree = DEVELOPER_DIR; };
-		D423DCCFEEFF4D38C9FC647355B772FA /* PolylineNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PolylineNode.swift; path = ARCL/Source/Nodes/PolylineNode.swift; sourceTree = "<group>"; };
+		D4BE46D6C895E1D116B707FFF8C4E645 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
 		D7987B54801FB7C69065C137CAAAE71D /* Pods-ByteMe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ByteMe-umbrella.h"; sourceTree = "<group>"; };
-		DA2999EAD2709985AE796857C72A6F39 /* Pods_ByteMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ByteMeTests.framework; path = "Pods-ByteMeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE98AFC49C432BF13F5D904DC67EFAB3 /* Pods-ByteMeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ByteMeTests-resources.sh"; sourceTree = "<group>"; };
-		E1371735F2213654FB451F205DD9D16C /* ARCL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCL-prefix.pch"; sourceTree = "<group>"; };
-		E381AD2AC722D360294D0216A5109DF4 /* ARCL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARCL.xcconfig; sourceTree = "<group>"; };
-		EEED275F08D0F25A6F29A44207E90627 /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+Radians.swift"; path = "ARCL/Source/Extensions/FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
+		E586C5B7B741A7687971DA14D25A4C69 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
 		EEFCC0F74C3F3A29062AECE0B287B7A3 /* Pods-ByteMeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ByteMeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EFA6EEC31BB2A8825DDC2FD7B6874679 /* Pods-ByteMe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ByteMe-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F6FB1B2465917DC7B60B615694114F36 /* ScalingScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScalingScheme.swift; path = ARCL/Source/Nodes/ScalingScheme.swift; sourceTree = "<group>"; };
-		F8F2F818E04E13DA60847738487E0C0A /* SceneLocationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationView.swift; path = ARCL/Source/SceneLocationView.swift; sourceTree = "<group>"; };
+		FACA6720B3EDAF4A42A0C2E4EB5B7BC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECCDF85DACE998C6C005EE01FC84B68 /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5BCFB0043D91056E7455E35FADC1CDBA /* Frameworks */ = {
+		1A228A2ADD151470F630659F86754CE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				028F236798063699F38A8E1CD90C8D9C /* Foundation.framework in Frameworks */,
+				44F5E929CE12B35C57F2D08C20ED6DAF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +206,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B24B4AEDD6A1ED5571C4B3465E0BD152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491F5BBD265C009C0569122B822A9479 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBA463EBACDD94FAFBE334C27F1A9735 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +225,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A20D0763233BB20CEA7C8F829C256F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA9DA0B4163A7CB1B57C9417DB579D62 /* ARCL.framework */,
+				1A71A4295178317ABD8935AE00069463 /* Cartography.framework */,
+				169B513D709FC10C3B6F600DA780BF9A /* Pods_ByteMe.framework */,
+				B9FAFAFAD8DE456CDB70F5E6D6462F50 /* Pods_ByteMeTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227CF8DB1F20157242E92B6546D52810 /* ARCL */ = {
+			isa = PBXGroup;
+			children = (
+				35265EDC6D0AB0322F7677398F489182 /* BaseTypes+Extensions.swift */,
+				CB60F8FEE6621F8D2180ED636EFE5CCF /* CGPoint+Extensions.swift */,
+				0F395C3E2BED5F9512FF2310B57DA440 /* CLLocation+Extensions.swift */,
+				33AF63C100F9E03A43AAF8E07F59833F /* FloatingPoint+Radians.swift */,
+				097FCCDD3065D45ACBB597D8669999AF /* LocationAnnotationNode.swift */,
+				3DEE57CA64B03E11F66F0FE134B638A9 /* LocationManager.swift */,
+				05D190DEF84812EB9C8FB55C5D189BDA /* LocationNode.swift */,
+				25CBDB554715C6261B1AF28AAF14677A /* PolylineNode.swift */,
+				2A948A922CF95CE2C69583B4B3A5B7FD /* ScalingScheme.swift */,
+				B4808AAC0E55D08620371090CE58CC01 /* SceneLocationEstimate.swift */,
+				45D33C674AA9407CB75D9CF89EA8F12E /* SceneLocationEstimate+Extensions.swift */,
+				4A327A1767E2130195713819FFCCAC69 /* SceneLocationManager.swift */,
+				6D1C77676753C54F06B223C31D59B9F8 /* SceneLocationView.swift */,
+				87BA1033C35CCEC6630B749B31972CF3 /* SceneLocationView+Extensions.swift */,
+				CE50CFAC7F7341A406ECB75C2647D8EC /* SceneLocationViewEstimateDelegate.swift */,
+				370354BCDB2B2C1467E4BEEC9901285D /* SCNNode+Extensions.swift */,
+				BE125C6F80EFB92AC1C2563C3AF69C4B /* SCNVector3+Extensions.swift */,
+				A8D71D13B818DFF86D3718240AB69C74 /* Support Files */,
+			);
+			name = ARCL;
+			path = ARCL;
+			sourceTree = "<group>";
+		};
 		3C777E0C5C5119EAEDB95DEC35C8BFEA /* Pods-ByteMe */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,40 +311,77 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		98D1E615869069C49C459543F47F7DA8 /* Products */ = {
+		6DA348AD567CF8ACEBFE25F0B5FFCBD7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1EBEF3AF578FBB12C7B984D6C28B5371 /* ARCL.framework */,
-				1DEAD7361A985675870823C620DA5D6B /* Pods_ByteMe.framework */,
-				DA2999EAD2709985AE796857C72A6F39 /* Pods_ByteMeTests.framework */,
+				2C3CD9D1EABC731CF8FE2FA7A058C5A9 /* Cartography.modulemap */,
+				FECCDF85DACE998C6C005EE01FC84B68 /* Cartography.xcconfig */,
+				E586C5B7B741A7687971DA14D25A4C69 /* Cartography-dummy.m */,
+				9B566DA7DBE4E06C91CBB1D65A5DE759 /* Cartography-prefix.pch */,
+				122BA6FAFC35A2EE5D04054166C39E4F /* Cartography-umbrella.h */,
+				FACA6720B3EDAF4A42A0C2E4EB5B7BC2 /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/Cartography";
 			sourceTree = "<group>";
 		};
-		C24665E9F09021FF6E364AEBDD7B163D /* ARCL */ = {
+		79E8E2778068EC2CC64E49EEAD979A1B /* Cartography */ = {
 			isa = PBXGroup;
 			children = (
-				8ED24DA57F6403001AD4F884DAF737FD /* BaseTypes+Extensions.swift */,
-				BCA1B486E13C94398F301628D5CDB1A7 /* CGPoint+Extensions.swift */,
-				22E23BF00C9DB2C35FC4815CA133637E /* CLLocation+Extensions.swift */,
-				EEED275F08D0F25A6F29A44207E90627 /* FloatingPoint+Radians.swift */,
-				8CCA9C71472F183BF58E1033EA0F7457 /* LocationAnnotationNode.swift */,
-				B4EACD8F7EAB687D32ACE92C98038D7C /* LocationManager.swift */,
-				C94D7E6F8748ED0D9E414A234285261D /* LocationNode.swift */,
-				D423DCCFEEFF4D38C9FC647355B772FA /* PolylineNode.swift */,
-				F6FB1B2465917DC7B60B615694114F36 /* ScalingScheme.swift */,
-				04C05DE7C6252CFC353FDDB4DC8310D9 /* SceneLocationEstimate.swift */,
-				596E722DD847BD1E10E26D00CC75962B /* SceneLocationEstimate+Extensions.swift */,
-				7D20C55A85AC1205813EB08FBAF00843 /* SceneLocationManager.swift */,
-				F8F2F818E04E13DA60847738487E0C0A /* SceneLocationView.swift */,
-				58CD0010D9A30418A78624702395E712 /* SceneLocationView+Extensions.swift */,
-				D12210FA1F42EFD5FE887AAB920490BC /* SceneLocationViewEstimateDelegate.swift */,
-				5D3E7A8786029D76A3CE7E4D4F5D6F68 /* SCNNode+Extensions.swift */,
-				670101E501D5E31525E399816795D1B2 /* SCNVector3+Extensions.swift */,
-				E8BB1DE264561263F737D86E3CA6EC78 /* Support Files */,
+				0B25978C5989E0F9F3FACDDE387092F9 /* Align.swift */,
+				13CE54069B2DB0E00853078B8A707D4A /* AutoresizingMaskLayoutProxy.swift */,
+				0584DE6F5D49AC214FCEC4B289D0B641 /* Coefficients.swift */,
+				C0F81A942A5F681CFFD95FE3B0156968 /* Compound.swift */,
+				673A5BBC391244E4CE0909726484CFA6 /* Constrain.swift */,
+				20B67F7ACB4661704F546D54CEFD0861 /* Constraint.swift */,
+				2039CABD35A941D1CE3CF35EA501CE1E /* ConstraintGroup.swift */,
+				7B87E787995C999740B2378D14FC1B13 /* Context.swift */,
+				571F7E13839B446B3B0BB66E8CD92053 /* Dimension.swift */,
+				6343ADD19CD69687608490F2DDF24570 /* Distribute.swift */,
+				27FD395667DA52EE412263EA2DCBDAF2 /* Edge.swift */,
+				D4BE46D6C895E1D116B707FFF8C4E645 /* Edges.swift */,
+				4962FA5C391A0B19480785C81D29A17D /* Expression.swift */,
+				6D068C7BD84D4739F59021792FF145E6 /* Extensions.swift */,
+				00B6095DA86077A6628E04547B7C1264 /* LayoutGuide.swift */,
+				B4F3497901F07D34FF475498A3B57D13 /* LayoutGuideProxy.swift */,
+				CD9F9E14F466DBBEA598996CA655D40C /* LayoutItem.swift */,
+				9EE0D2650B24E56E60E449CF491FE01F /* LayoutProxy.swift */,
+				19FA731CCD9FEFE351217DCC6325E103 /* LayoutProxy+TypeErasure.swift */,
+				4B35447A7B227C58C178615C0F6CB20C /* LayoutSupport.swift */,
+				28C4E58EA8F53E216A4DF6D5DD9F7C98 /* LayoutSupportProxy.swift */,
+				3EEFF17F8AF4790659FD353C9FCC1F70 /* Point.swift */,
+				4638157480A8FB8126F96BBB5CCA486D /* Priority.swift */,
+				8001583DFF26DAA396FA41A56159AAF1 /* Property.swift */,
+				21FBE63307358B1E213DE07DE5E7E25C /* Size.swift */,
+				D1C3400083BCEA110B1ACDABFE76BA80 /* View.swift */,
+				2DA482E2912D29E8B6A91675CF3EC11B /* ViewProxy.swift */,
+				6DA348AD567CF8ACEBFE25F0B5FFCBD7 /* Support Files */,
 			);
-			name = ARCL;
-			path = ARCL;
+			name = Cartography;
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		A8D71D13B818DFF86D3718240AB69C74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				295942DF98C35BE86A763BD3DB0C7F0A /* ARCL.modulemap */,
+				97228470298A0D54F1521C64530BFEC2 /* ARCL.xcconfig */,
+				272E86B995773C871DA548427131C297 /* ARCL-dummy.m */,
+				C649EECC17A67880F6891CE99CF6E340 /* ARCL-prefix.pch */,
+				47220D19099DC4BD2588932DC742FA01 /* ARCL-umbrella.h */,
+				591E7017144C426EB7EA3752A5558B67 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ARCL";
+			sourceTree = "<group>";
+		};
+		AA5F3148EC8392E695F8C0EED0F1BB84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				227CF8DB1F20157242E92B6546D52810 /* ARCL */,
+				79E8E2778068EC2CC64E49EEAD979A1B /* Cartography */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -236,8 +389,8 @@
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
 				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
-				FE3A6E456FB5497083FC303A8E747AFD /* Pods */,
-				98D1E615869069C49C459543F47F7DA8 /* Products */,
+				AA5F3148EC8392E695F8C0EED0F1BB84 /* Pods */,
+				0A20D0763233BB20CEA7C8F829C256F7 /* Products */,
 				FB330FEBA160DCFBA6B1A2765D15749F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -250,20 +403,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E8BB1DE264561263F737D86E3CA6EC78 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				333706F353ADFC629190891DEA482DB9 /* ARCL.modulemap */,
-				E381AD2AC722D360294D0216A5109DF4 /* ARCL.xcconfig */,
-				C035583B0F182B0D644BC99327DDDC56 /* ARCL-dummy.m */,
-				E1371735F2213654FB451F205DD9D16C /* ARCL-prefix.pch */,
-				0D4937057E878D6FC57E868E18F4A64E /* ARCL-umbrella.h */,
-				452698E8AE6B1A241D97F9CAB2FCCE5A /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ARCL";
-			sourceTree = "<group>";
-		};
 		FB330FEBA160DCFBA6B1A2765D15749F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,25 +412,9 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FE3A6E456FB5497083FC303A8E747AFD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C24665E9F09021FF6E364AEBDD7B163D /* ARCL */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4B63E95D736B4C0E45A2BD8784888B0B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BD026892A47B5E6D64E30618DB3A3FD /* Pods-ByteMe-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		56C995D0628149B49B03FD01DBB81ED9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,11 +423,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8012E4FA31FA61DD064F1A0EC2F075DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA40594FE7D013B825019A168D06581 /* Pods-ByteMe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90C9EC0C1D4D248E4BFF213EFD7E1FB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4AAE7EB165984F6DF7C4D487A5C8CA2C /* ARCL-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6264F95D9B1176E8E118DC17BEF2224 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CBA5FDBBC1B11DD22E53A77138F150 /* Cartography-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,26 +466,45 @@
 			);
 			name = "Pods-ByteMeTests";
 			productName = "Pods-ByteMeTests";
-			productReference = DA2999EAD2709985AE796857C72A6F39 /* Pods_ByteMeTests.framework */;
+			productReference = B9FAFAFAD8DE456CDB70F5E6D6462F50 /* Pods_ByteMeTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		409CF200C71334B099EC2337A6BD3792 /* Pods-ByteMe */ = {
+		57DDDA5C831455FB20F4FF618CF51434 /* Cartography */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88424C4AA9B2E332D5C214BD15D33051 /* Build configuration list for PBXNativeTarget "Pods-ByteMe" */;
+			buildConfigurationList = BCF40F2F311C3013CDE15D5CD0F4F0EB /* Build configuration list for PBXNativeTarget "Cartography" */;
 			buildPhases = (
-				4B63E95D736B4C0E45A2BD8784888B0B /* Headers */,
-				0269970D40375FF8AEC283FAD735E013 /* Sources */,
-				5BCFB0043D91056E7455E35FADC1CDBA /* Frameworks */,
-				60859487725807BB196F9A0288F48DA5 /* Resources */,
+				C6264F95D9B1176E8E118DC17BEF2224 /* Headers */,
+				5DE7AA2214B18B20638929413B35E821 /* Sources */,
+				B24B4AEDD6A1ED5571C4B3465E0BD152 /* Frameworks */,
+				018047054321B247695B7C34B28EC9B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE34838CA39398F1D6FEDC98CA5E3A69 /* PBXTargetDependency */,
+			);
+			name = Cartography;
+			productName = Cartography;
+			productReference = 1A71A4295178317ABD8935AE00069463 /* Cartography.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A657DDC528BB8C28E08AC6284D379AF1 /* Pods-ByteMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E04628538E59B8668BD7D2DBA214465C /* Build configuration list for PBXNativeTarget "Pods-ByteMe" */;
+			buildPhases = (
+				8012E4FA31FA61DD064F1A0EC2F075DE /* Headers */,
+				B95E9F8D7906275F8E251303438506C2 /* Sources */,
+				1A228A2ADD151470F630659F86754CE0 /* Frameworks */,
+				FDB7D47BDA33AE9C597C09BE18E059EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B4BA6DFA7D39D94530682805618BCE1 /* PBXTargetDependency */,
+				096AC0A21BFCFC19E2610798CEA89E06 /* PBXTargetDependency */,
 			);
 			name = "Pods-ByteMe";
 			productName = "Pods-ByteMe";
-			productReference = 1DEAD7361A985675870823C620DA5D6B /* Pods_ByteMe.framework */;
+			productReference = 169B513D709FC10C3B6F600DA780BF9A /* Pods_ByteMe.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D89E8EA17E6DD8858E9F360D5D49AC51 /* ARCL */ = {
@@ -364,7 +522,7 @@
 			);
 			name = ARCL;
 			productName = ARCL;
-			productReference = 1EBEF3AF578FBB12C7B984D6C28B5371 /* ARCL.framework */;
+			productReference = BA9DA0B4163A7CB1B57C9417DB579D62 /* ARCL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -384,26 +542,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 98D1E615869069C49C459543F47F7DA8 /* Products */;
+			productRefGroup = 0A20D0763233BB20CEA7C8F829C256F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D89E8EA17E6DD8858E9F360D5D49AC51 /* ARCL */,
-				409CF200C71334B099EC2337A6BD3792 /* Pods-ByteMe */,
+				57DDDA5C831455FB20F4FF618CF51434 /* Cartography */,
+				A657DDC528BB8C28E08AC6284D379AF1 /* Pods-ByteMe */,
 				3735E9E2C4A1AFB05D2AD163B124F110 /* Pods-ByteMeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C63BA8281F70F6EB786951417B7BAD9 /* Resources */ = {
+		018047054321B247695B7C34B28EC9B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60859487725807BB196F9A0288F48DA5 /* Resources */ = {
+		5C63BA8281F70F6EB786951417B7BAD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -417,17 +576,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0269970D40375FF8AEC283FAD735E013 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		FDB7D47BDA33AE9C597C09BE18E059EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADC6AC65AF1A1DA531A37499FD605BC6 /* Pods-ByteMe-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		52BC570EF6483716F61F7AC3BB3A939E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,6 +611,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5DE7AA2214B18B20638929413B35E821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEF39B0DA95517F805323112A5CBFF8 /* Align.swift in Sources */,
+				ABBB116A073E7C682F7F6863D5E7729C /* AutoresizingMaskLayoutProxy.swift in Sources */,
+				3A5E5B04623E4707664C4334CA6905E6 /* Cartography-dummy.m in Sources */,
+				84C0F90298C911603897B3CCDEFD330F /* Coefficients.swift in Sources */,
+				573C9CE105BFC8826ADBCCCC8F1BC9B9 /* Compound.swift in Sources */,
+				A75846BC6E5DF1902E22BB032A6FCE0D /* Constrain.swift in Sources */,
+				02BBBADC3E6DC747C030A99DF20EB531 /* Constraint.swift in Sources */,
+				F25A1A8E53CE5CAB05D2C5D1516A233B /* ConstraintGroup.swift in Sources */,
+				297AD27064E5F26EF7FAAFE739FA0514 /* Context.swift in Sources */,
+				E6841949F497AEE368E6D1D84049A15D /* Dimension.swift in Sources */,
+				671A0F6DE62F40D72D223D7462B6BAB2 /* Distribute.swift in Sources */,
+				99CE86F391D6CE28EB52E85B786F96C6 /* Edge.swift in Sources */,
+				830DF76D1B7EB7FDDFF0AE4598C5E058 /* Edges.swift in Sources */,
+				41C1283E9FA9D44D9A3B5EEBF7BCCED6 /* Expression.swift in Sources */,
+				52BBDED723BCE758ABCC796F2266177B /* Extensions.swift in Sources */,
+				2AE5D2215BF58A3D7FD4F87D256ADEB1 /* LayoutGuide.swift in Sources */,
+				F1BD29EE223FA3AE81C8C8F973FF2852 /* LayoutGuideProxy.swift in Sources */,
+				00236C834C7A127CE32202698627FDAA /* LayoutItem.swift in Sources */,
+				28DDDCD8E16F527C375B863AB0D7C6AA /* LayoutProxy+TypeErasure.swift in Sources */,
+				779CFEB63C5C71608B00D77BA095DFC9 /* LayoutProxy.swift in Sources */,
+				66FE80F63CE053E6FE1CC2E0F1CCFCC1 /* LayoutSupport.swift in Sources */,
+				BB0AE0F60848088A834341ED2E9A1F77 /* LayoutSupportProxy.swift in Sources */,
+				4A471CF53AD5174580D31C108AA6C96C /* Point.swift in Sources */,
+				C03A14B636DF3284FD0407A0BB4BF26B /* Priority.swift in Sources */,
+				BB5D4E4A7047047C4C48DF677FFCBF02 /* Property.swift in Sources */,
+				54B928421E9142AB9C478B4799EC1225 /* Size.swift in Sources */,
+				590E2E8D217D8CC7F87D547BAE7073D2 /* View.swift in Sources */,
+				685A8EB9BB5E42309C03DD9607EB1648 /* ViewProxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95E9F8D7906275F8E251303438506C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAF40757CD918FD8C3CBF571588B7C8 /* Pods-ByteMe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F20B266719EDAC6CAD80EF8F667E3A9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,58 +665,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DB1F249BFA68F7BD1F3FB3C33C2C0E83 /* PBXTargetDependency */ = {
+		096AC0A21BFCFC19E2610798CEA89E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ByteMe";
-			target = 409CF200C71334B099EC2337A6BD3792 /* Pods-ByteMe */;
-			targetProxy = B6B8566513F166FE128CB4EFA8FC9F9B /* PBXContainerItemProxy */;
+			name = Cartography;
+			target = 57DDDA5C831455FB20F4FF618CF51434 /* Cartography */;
+			targetProxy = 1D261E71D609AEE61596B56DAE9975A5 /* PBXContainerItemProxy */;
 		};
-		EE34838CA39398F1D6FEDC98CA5E3A69 /* PBXTargetDependency */ = {
+		0B4BA6DFA7D39D94530682805618BCE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ARCL;
 			target = D89E8EA17E6DD8858E9F360D5D49AC51 /* ARCL */;
-			targetProxy = B5FA28AB5A8EE262E6AD33EE178CAF34 /* PBXContainerItemProxy */;
+			targetProxy = DC1F924BA438D47BBD40302267924E6E /* PBXContainerItemProxy */;
+		};
+		DB1F249BFA68F7BD1F3FB3C33C2C0E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ByteMe";
+			target = A657DDC528BB8C28E08AC6284D379AF1 /* Pods-ByteMe */;
+			targetProxy = B6B8566513F166FE128CB4EFA8FC9F9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		593C6DC177D00C1B4CFB89373C986655 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E381AD2AC722D360294D0216A5109DF4 /* ARCL.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ARCL/ARCL-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ARCL/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ARCL/ARCL.modulemap";
-				PRODUCT_MODULE_NAME = ARCL;
-				PRODUCT_NAME = ARCL;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		594DD5B07EF69BF054ED9D8D8396980A /* Debug */ = {
+		0D6028EB55B28906165B181B7CFBB462 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF9ADB7DBA88C621C1ABA6681AF34C93 /* Pods-ByteMe.debug.xcconfig */;
 			buildSettings = {
@@ -553,7 +724,43 @@
 			};
 			name = Debug;
 		};
-		5A7E7827D3F1134FD3B275DF12A456F9 /* Release */ = {
+		18C651BC6C324F83A5469A2B67E295AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECCDF85DACE998C6C005EE01FC84B68 /* Cartography.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				PRODUCT_MODULE_NAME = Cartography;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40DF9E2E91976239B569DF4AC6CC4DE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 100A374D2A80C3C42CC01BEDBFA98660 /* Pods-ByteMe.release.xcconfig */;
 			buildSettings = {
@@ -592,9 +799,9 @@
 			};
 			name = Release;
 		};
-		66185A1BE4BD05F000350C4CEF6D3A32 /* Debug */ = {
+		593C6DC177D00C1B4CFB89373C986655 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E381AD2AC722D360294D0216A5109DF4 /* ARCL.xcconfig */;
+			baseConfigurationReference = 97228470298A0D54F1521C64530BFEC2 /* ARCL.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -621,6 +828,77 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66185A1BE4BD05F000350C4CEF6D3A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97228470298A0D54F1521C64530BFEC2 /* ARCL.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARCL/ARCL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARCL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARCL/ARCL.modulemap";
+				PRODUCT_MODULE_NAME = ARCL;
+				PRODUCT_NAME = ARCL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		672B0F2EBF0E9D49CFB1F22AF44A5AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECCDF85DACE998C6C005EE01FC84B68 /* Cartography.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				PRODUCT_MODULE_NAME = Cartography;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -862,11 +1140,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88424C4AA9B2E332D5C214BD15D33051 /* Build configuration list for PBXNativeTarget "Pods-ByteMe" */ = {
+		BCF40F2F311C3013CDE15D5CD0F4F0EB /* Build configuration list for PBXNativeTarget "Cartography" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				594DD5B07EF69BF054ED9D8D8396980A /* Debug */,
-				5A7E7827D3F1134FD3B275DF12A456F9 /* Release */,
+				672B0F2EBF0E9D49CFB1F22AF44A5AB8 /* Debug */,
+				18C651BC6C324F83A5469A2B67E295AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E04628538E59B8668BD7D2DBA214465C /* Build configuration list for PBXNativeTarget "Pods-ByteMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6028EB55B28906165B181B7CFBB462 /* Debug */,
+				40DF9E2E91976239B569DF4AC6CC4DE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

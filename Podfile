@@ -7,6 +7,7 @@ target 'ByteMe' do
 
   # Pods for ByteMe
   pod 'ARCL', :git => 'https://github.com/ProjectDent/ARKit-CoreLocation', :branch => 'develop'
+  pod 'Cartography'
 
   target 'ByteMeTests' do
     inherit! :search_paths
